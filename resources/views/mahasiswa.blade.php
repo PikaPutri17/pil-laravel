@@ -56,25 +56,19 @@
         </tr>
       </thead>
       <tbody>
+        <?php $nilai_awal = 0; ?>
+        @while ($nilai_awal < $jumlah)
+        
         <tr>
-          <td>0702221037</td>
-          <td>Pika Putri Amanda</td>
+          <td>{{$nim[$nilai_awal]}}</td>
+          <td>{{$nama[$nilai_awal]}}</td>
           <td>Perempuan</td>
           <td>17 November 2003</td>
-          <td rowspan="3">Kota Medan</td>
+          <td>Kota Medan</td>
         </tr> 
-        <tr>
-          <td>0702221033</td>
-          <td>Rizky Nazar</td>
-          <td>Laki-laki</td>
-          <td>10 Mei 2003</td>
-        </tr> 
-        <tr>
-          <td>0702221039</td>
-          <td>Aira El Zahra Sabrina</td>
-          <td>Perempuan</td>
-          <td>25 Februari 2003</td>
-        </tr>
+        
+        <?php $nilai_awal++ ?>
+        @endwhile
       </tbody>
     </table>
 
