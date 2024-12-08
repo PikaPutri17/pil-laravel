@@ -52,14 +52,7 @@
             </tr>
           </thead>
           <tbody>
-           @for ($i = 0; $i < $jumlah; $i++)
-                <tr>
-                  <td>{{$nim[$i]}}</td>
-                  <td>{{$nama[$i]}}</td>
-                  <td>Perempuan</td>
-                  <td>Kota Medan</td>
-                </tr>
-           @endfor
+          
           </tbody>
         </table>
       </div> 
