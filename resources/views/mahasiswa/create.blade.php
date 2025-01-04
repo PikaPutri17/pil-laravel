@@ -51,7 +51,7 @@
             <div class="col-sm-6">
               <label for="">Nama Mahasiswa</label>
               <input type="text" name="nama_mahasiswa" class="form-control" placeholder="Input Nama Mahasiswa">
-            </div>
+            </div> 
           </div>
          <div class="row">
           <div class="col-sm-6">
